@@ -1,0 +1,20 @@
+	
+system Jecke
+	pos -850 366
+	government "Hideout"
+	attributes
+	arrival 300
+	habitable 500
+	link Zubeneschamali
+	object "Your Hideout"
+		sprite "planet/station-asteroid-a2"
+		distance 0
+		offset 0
+
+planet "Your Hideout"
+	landscape "land/StationHideout"
+	music ambient/machinery
+	outfitter `MapOutfitter`
+	shipyard `HideoutShipyard`
+	port
+		recharges all
