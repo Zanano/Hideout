@@ -12,9 +12,15 @@ system Jecke
 		offset 0
 
 planet "Your Hideout"
+	description `Abandoned before you found and refurbished it, this asteroid station is perfect for storing your ships and outfits.`
 	landscape "land/StationHideout"
 	music ambient/machinery
 	outfitter `MapOutfitter`
 	shipyard `HideoutShipyard`
+	spaceport `The landing hangar is mostly empty, aside from a few cargo pallets and containers.`
 	port
 		recharges all
+		
+
+system Zubeneschamali
+	add link Jecke
